@@ -111,3 +111,30 @@ On distingue plusierurs types de cryptosystees ar substitution.
 Subsitution de polygrammes:
 Consiste à substituer un groupe de caractère (polygrammes) dans le message oar un autre groupe de caractères
 
+- Substitution monoalphabétique
+A est un alphabet romain sont TT une permutation sur A l'opération de chiffrement d'un messaage m = TT(m¹) + TT(m²) + TT(m³) + ... + TT(mn)
+
+La clé secrete est TT. Connaissant cette clé on peut déchiffrer
+m = D TT-1 (c) = TT-1(c1) + TT-2(c2) ... + TT-n(cm)
+
+TP: Soit les fichiers suivants: Clair.txt, key.txt
+
+La clé contiendra les permutations pour chacun des symboles (aZ')
+
+generateKey();
+encode(File src, File dst, File key);
+
+####Subsitution monoalphabetique
+attaque sur monoaphabétique
+
+- Brute force => 29!
+- attaque par frequence d'apparition des symboles
+Chaque langue dispose d'une fréquence propre d'apparition des lettres de l'alphabet
+- Récupérer 2 textes de langue francaise idéalement traitant des meme sujets 
+    Supprimer tous les caractères qui ne sont pas A-Z
+    
+- A partir du texte calculer la féquence d'apparition des symboles puis les ordonnées. Chiffrer le text 2 et détruiser la clé
+    
+Tenter de déchiffrer le texte 1 grâce à l'analyse des fréquences
+
+
