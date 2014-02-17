@@ -98,3 +98,16 @@ Qui consiste à faire chiffrer par la victile un bloc dont l'attaquant connait l
 
 - Attaque par analyse différentielle
 Utiliser une faible différence entre plusieurs messages (exemple des logso pour deviner la clé)
+
+####Chiffrement par substitution
+Ce chiffrement constite à remplacer dans un meessage une ou plusiers entité (généralement des lettres) par un ou plusiers autre entités
+
+On distingue plusierurs types de cryptosystees ar substitution.
+
+- La substitution monoalphabétique: consiste à remplacer chaque lettre du message par une autre lettre de l'alphabet.
+- Substitution polyalphabétique: qui consiste à réutiliser une suite de chiffres monoalphabétique périodiquement
+- Subsitution homophonique consiste à faire correspondre à chaque lettre du message en clair un ensemble possible d'autre caractères.
+
+Subsitution de polygrammes:
+Consiste à substituer un groupe de caractère (polygrammes) dans le message oar un autre groupe de caractères
+
